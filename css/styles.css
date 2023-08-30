@@ -1,0 +1,67 @@
+body {
+  font-family: Roboto;
+}
+
+.logo {
+  color: #4d5ae5;
+}
+
+.header-logo-Studio {
+  color: #2e2f42;
+}
+
+.nav-link {
+  color: #2e2f42;
+}
+
+.nav-link:active {
+  color: #404bbf;
+}
+
+.mail,
+.tel {
+  color: #434455;
+}
+
+.mail:active {
+  color: #404bbf;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+h3 {
+  color: #2e2f42;
+}
+
+p {
+  color: #434455;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-Studio {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
