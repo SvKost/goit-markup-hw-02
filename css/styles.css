@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #fff;
 }
 
 a {
@@ -28,4 +28,54 @@ ul {
 
 .footer-logo-accent {
   color: #f4f4fd;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+
+/*hero-section*/
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02;
+}
+
+.button {
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
