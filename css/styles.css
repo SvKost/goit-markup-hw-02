@@ -13,22 +13,6 @@ body {
   background-color: var(--body-bg-color);
 }
 
-h2 {
-  color: var(--headings-color);
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-h3 {
-  color: var(--headings-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
 a {
   text-decoration: none;
 }
@@ -42,7 +26,7 @@ ul {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -70,6 +54,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .address:hover,
@@ -88,13 +73,16 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
-
 .button {
   color: var(--body-bg-color);
   background-color: var(--primary-brand-color);
   font-family: inherit;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -102,8 +90,32 @@ ul {
   background-color: var(--active-button-color);
 }
 
+.section-list-title {
+  color: var(--headings-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .team-section {
   background-color: var(--bright_text-color);
+}
+
+.section-title {
+  color: var(--headings-color);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
 }
 
 .team-list {
@@ -116,4 +128,6 @@ ul {
 
 .footer-text {
   color: var(--bright_text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
