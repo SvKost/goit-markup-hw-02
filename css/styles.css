@@ -51,10 +51,6 @@ ul {
   color: var(--headings-color);
 }
 
-.footer-logo-accent {
-  color: var(--bright_text-color);
-}
-
 .nav-link {
   color: var(--headings-color);
   font-size: 16px;
@@ -106,14 +102,16 @@ ul {
   background-color: var(--active-button-color);
 }
 
-/*Team-section*/
-
 .team-section {
   background-color: var(--bright_text-color);
 }
 
 .team-list {
   background-color: var(--body-bg-color);
+}
+
+.footer-logo-accent {
+  color: var(--bright_text-color);
 }
 
 .footer-text {
