@@ -4,6 +4,22 @@ body {
   background-color: #fff;
 }
 
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 a {
   text-decoration: none;
 }
@@ -18,7 +34,7 @@ ul {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -35,7 +51,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -48,7 +64,7 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .address:hover,
@@ -56,9 +72,8 @@ ul {
   color: #404bbf;
 }
 
-/*hero-section*/
-
-.hero-section {
+.hero-section,
+.footer {
   background-color: #2e2f42;
 }
 
@@ -67,15 +82,31 @@ ul {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .button {
   color: #fff;
   background-color: #4d5ae5;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   background-color: #404bbf;
+}
+
+/*Team-section*/
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #fff;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
