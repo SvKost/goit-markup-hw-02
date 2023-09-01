@@ -1,11 +1,20 @@
+:root {
+  --body-text-color: #434455;
+  --body-bg-color: #fff;
+  --bright_text-color: #f4f4fd;
+  --headings-color: #2e2f42;
+  --primary-brand-color: #4d5ae5;
+  --active-button-color: #404bbf;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
+  color: var(--body-text-color);
+  background-color: var(--body-bg-color);
 }
 
 h2 {
-  color: #2e2f42;
+  color: var(--headings-color);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -13,7 +22,7 @@ h2 {
 }
 
 h3 {
-  color: #2e2f42;
+  color: var(--headings-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -29,7 +38,7 @@ ul {
 }
 
 .logo {
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -39,15 +48,15 @@ ul {
 }
 
 .logo-accent {
-  color: #2e2f42;
+  color: var(--headings-color);
 }
 
 .footer-logo-accent {
-  color: #f4f4fd;
+  color: var(--bright_text-color);
 }
 
 .nav-link {
-  color: #2e2f42;
+  color: var(--headings-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -56,11 +65,11 @@ ul {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--active-button-color);
 }
 
 .address {
-  color: #434455;
+  color: var(--body-text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -69,16 +78,16 @@ ul {
 
 .address:hover,
 .address:focus {
-  color: #404bbf;
+  color: var(--active-button-color);
 }
 
 .hero-section,
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--headings-color);
 }
 
 .hero-title {
-  color: #fff;
+  color: var(--body-bg-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -86,27 +95,27 @@ ul {
 }
 
 .button {
-  color: #fff;
-  background-color: #4d5ae5;
+  color: var(--body-bg-color);
+  background-color: var(--primary-brand-color);
   font-family: inherit;
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--active-button-color);
 }
 
 /*Team-section*/
 
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--bright_text-color);
 }
 
 .team-list {
-  background-color: #fff;
+  background-color: var(--body-bg-color);
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: var(--bright_text-color);
 }
