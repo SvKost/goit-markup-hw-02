@@ -48,17 +48,20 @@ ul {
   color: var(--active-button-color);
 }
 
-.address {
+.address-section {
+  font-style: normal;
+}
+
+.address-link {
   color: var(--body-text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--active-button-color);
 }
 
